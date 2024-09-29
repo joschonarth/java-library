@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Biblioteca {
-    private List<Livro> livros = new ArrayList<>();
-    private List<Autor> autores = new ArrayList<>();
-    private List<Emprestimo> emprestimos = new ArrayList<>();
-    private List<Cliente> clientes = new ArrayList<>();
+    private final List<Livro> livros = new ArrayList<>();
+    private final List<Autor> autores = new ArrayList<>();
+    private final List<Emprestimo> emprestimos = new ArrayList<>();
+    private final List<Cliente> clientes = new ArrayList<>();
 
     public List<Cliente> getClientes() {
         return clientes;
